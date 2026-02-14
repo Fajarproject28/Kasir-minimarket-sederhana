@@ -223,10 +223,10 @@ Fitur yang bisa ditambahkan:
 
 Project ini dibuat untuk tujuan pembelajaran. Anda bebas menggunakan, memodifikasi, dan mendistribusikan kode ini.
 
-## 👨‍💻 Author
+## 👨‍💻 Fajar Eka Diyan Permana
 
 **Tammim Falah**
-- GitHub: [@yourusername](https://github.com/Fajarproject28)
+- GitHub: (https://github.com/Fajarproject28)
 - Email: feka79647@gmail.com
 
 ## 🙏 Kontribusi
