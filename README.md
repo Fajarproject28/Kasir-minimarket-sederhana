@@ -225,7 +225,6 @@ Project ini dibuat untuk tujuan pembelajaran. Anda bebas menggunakan, memodifika
 
 ## 👨‍💻 Fajar Eka Diyan Permana
 
-**Tammim Falah**
 - GitHub: (https://github.com/Fajarproject28)
 - Email: feka79647@gmail.com
 
