@@ -59,7 +59,7 @@ public class FormKasir extends JFrame {
         // Panel Header
         JPanel headerPanel = new JPanel();
         headerPanel.setBackground(new Color(52, 152, 219));
-        JLabel lblJudul = new JLabel("KASIR MINIMARKET TOKO FALAH");
+        JLabel lblJudul = new JLabel("KASIR MINIMARKET TOKO BERKAH");
         lblJudul.setFont(new Font("Arial", Font.BOLD, 24));
         lblJudul.setForeground(Color.WHITE);
         headerPanel.add(lblJudul);
@@ -127,12 +127,12 @@ public class FormKasir extends JFrame {
         JPanel panelTombol1 = new JPanel(new FlowLayout(FlowLayout.CENTER));
         btnTambah = new JButton("Tambah ke Keranjang");
         btnTambah.setBackground(new Color(46, 204, 113));
-        btnTambah.setForeground(Color.WHITE);
+        btnTambah.setForeground(Color.BLACK);
         btnTambah.addActionListener(e -> tambahKeKeranjang());
         
         btnHapus = new JButton("Hapus Item");
         btnHapus.setBackground(new Color(231, 76, 60));
-        btnHapus.setForeground(Color.WHITE);
+        btnHapus.setForeground(Color.BLACK);
         btnHapus.addActionListener(e -> hapusItem());
         
         panelTombol1.add(btnTambah);
@@ -158,7 +158,7 @@ public class FormKasir extends JFrame {
         // Panel Total dan Pembayaran
         JPanel pembayaranPanel = new JPanel();
         pembayaranPanel.setLayout(new BoxLayout(pembayaranPanel, BoxLayout.Y_AXIS));
-        pembayaranPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+        pembayaranPanel.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 5));
         
         JPanel panelTotal = new JPanel(new FlowLayout(FlowLayout.LEFT));
         panelTotal.add(new JLabel("Total Belanja:"));
@@ -209,18 +209,18 @@ public class FormKasir extends JFrame {
         JPanel panelTombol2 = new JPanel(new FlowLayout());
         btnProses = new JButton("Proses Transaksi");
         btnProses.setBackground(new Color(52, 152, 219));
-        btnProses.setForeground(Color.WHITE);
+        btnProses.setForeground(Color.BLACK);
         btnProses.addActionListener(e -> prosesTransaksi());
         
         btnCetak = new JButton("Cetak Struk");
         btnCetak.setBackground(new Color(142, 68, 173));
-        btnCetak.setForeground(Color.WHITE);
+        btnCetak.setForeground(Color.BLACK);
         btnCetak.setEnabled(false);
         btnCetak.addActionListener(e -> cetakStruk());
         
         btnReset = new JButton("Transaksi Baru");
         btnReset.setBackground(new Color(243, 156, 18));
-        btnReset.setForeground(Color.WHITE);
+        btnReset.setForeground(Color.BLACK);
         btnReset.addActionListener(e -> resetForm());
         
         panelTombol2.add(btnProses);
@@ -387,7 +387,7 @@ public class FormKasir extends JFrame {
         String tanggal = sdf.format(new Date());
         
         struk.append("========================================\n");
-        struk.append("       TOKO FALAH MINIMARKET\n");
+        struk.append("       TOKO MINIMARKET BERKAH\n");
         struk.append("    Jl. Raya Pasarkemis No. 123\n");
         struk.append("          Tangerang, Banten\n");
         struk.append("         Telp: 021-1234567\n");
