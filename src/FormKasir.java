@@ -47,7 +47,7 @@ public class FormKasir extends JFrame {
     }
     
     private void initComponents() {
-        setTitle("Aplikasi Kasir Minimarket - Toko Falah");
+        setTitle("Aplikasi Kasir Minimarket - Toko Berkah");
         setSize(1000, 700);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLayout(new BorderLayout(10, 10));
