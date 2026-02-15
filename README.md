@@ -122,7 +122,7 @@ private void koneksiDatabase() {
 
 ```
 ========================================
-       TOKO FALAH MINIMARKET
+       TOKO MINIMARKET BERKAH
     Jl. Raya Pasarkemis No. 123
           Tangerang, Banten
          Telp: 021-1234567
@@ -176,10 +176,6 @@ Kembalian     : Rp1.000,00
 - `kategori` (VARCHAR)
 - `created_at` (DATETIME)
 - `updated_at` (DATETIME)
-
-## 🎨 Screenshot
-
-*Screenshot aplikasi akan ditambahkan di sini*
 
 ## 📝 Daftar Barang Default
 
