@@ -1,6 +1,6 @@
 
 
-##Aplikasi kasir minimarket sederhana berbasis Java Swing dengan database MariaDB. 
+## Aplikasi kasir minimarket sederhana berbasis Java Swing dengan database MariaDB. 
 
 Aplikasi ini dibuat untuk memudahkan proses transaksi penjualan di minimarket dengan fitur pencatatan pembeli, pengelolaan keranjang belanja, dan pencetakan struk.
 
