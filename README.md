@@ -236,6 +236,8 @@ Kontribusi sangat diterima! Silakan fork repository ini dan submit pull request 
 - [MariaDB Documentation](https://mariadb.com/kb/en/documentation/)
 - [JDBC Tutorial](https://docs.oracle.com/javase/tutorial/jdbc/)
 
+## Link Buku : https://ebook.webiot.id/ebooks/aplikasi-kasir-minimarket-sederhana-berbasis-java-swing-dengan-database-mariadb
+
 ---
 
 ⭐ Jika project ini membantu Anda, jangan lupa untuk memberikan star!
